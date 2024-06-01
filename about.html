@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Raymond</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #080808;
+            color: #fff;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .header h1 span {
+            color: rgb(20, 170, 120);
+        }
+        .header p {
+            font-size: 1.5rem;
+            color: #ababab;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .about-col-1, .about-col-2 {
+            flex-basis: 48%;
+        }
+        .about-col-1 img {
+            width: 100%;
+            border-radius: 15px;
+        }
+        .about-col-2 {
+            color: #ababab;
+        }
+        .sub-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .tab-titles {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .tab-links {
+            font-size: 1.2rem;
+            font-weight: 500;
+            cursor: pointer;
+            position: relative;
+        }
+        .tab-links::after {
+            content: '';
+            width: 0;
+            height: 3px;
+            background: #ff004f;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            transition: 0.5s;
+        }
+        .tab-links.active-link::after {
+            width: 100%;
+        }
+        .tab-contents {
+            display: none;
+            list-style: none;
+        }
+        .tab-contents.active-tab {
+            display: block;
+        }
+        .tab-contents ul {
+            padding-left: 20px;
+        }
+        .tab-contents ul li {
+            margin-bottom: 10px;
+        }
+        .tab-contents ul li span {
+            color: #b54769;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hi, I'm <span>Raymond</span></h1>
+            <p>Web Developer | Alx Africa SE c19 Learner</p>
+        </div>
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/portf.ray.png.jpg" alt="Raymond's Photo">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate web developer with a focus on creating efficient and scalable web applications. My journey in web development has equipped me with a diverse set of skills in both front-end and back-end technologies.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab(event, 'experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab(event, 'education')">Education</p>
+                </div>
+                <div id="skills" class="tab-contents active-tab">
+                    <ul>
+                        <li><span>Backend Developer:</span> Designing Web Interface</li>
+                        <li><span>Frontend Developer:</span> Web Development</li>
+                        <li><span>Full Stack Developer:</span> End-to-end application development</li>
+                    </ul>
+                </div>
+                <div id="experience" class="tab-contents">
+                    <ul>
+                        <li>3 years of experience in web development</li>
+                        <li>Worked on multiple successful projects</li>
+                    </ul>
+                </div>
+                <div id="education" class="tab-contents">
+                    <ul>
+                        <li>Bachelor's degree in Computer Science</li>
+                        <li>Certified Full Stack Developer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openTab(event, tabName) {
+            const tabLinks = document.querySelectorAll('.tab-links');
+            const tabContents = document.querySelectorAll('.tab-contents');
+            
+            tabLinks.forEach(link => link.classList.remove('active-link'));
+            tabContents.forEach(content => content.classList.remove('active-tab'));
+            
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+    </script>
+</body>
+</html>
