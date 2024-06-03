@@ -46,7 +46,13 @@
         }
         .about-col-1, .about-col-2 {
             flex-basis: 48%;
+            margin: 5px;
         }
+        .about-col-1, .about-col-2, a{
+            margin: 5px;
+            color: aqua;
+        }
+
         .about-col-1 img {
             width: 100%;
             border-radius: 15px;
@@ -101,6 +107,11 @@
             color: #b54769;
             font-size: 1rem;
         }
+        .container span{
+            margin: 0;
+            color: rgb(20, 170, 120);
+        }
+       
     </style>
 </head>
 <body>
@@ -111,11 +122,19 @@
         </div>
         <div class="row">
             <div class="about-col-1">
-                <img src="images/portf.ray.png.jpg" alt="Raymond's Photo">
+                <img src="images/portf.ray.png.jpg" alt="raymond's photo">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>I am a passionate web developer with a focus on creating efficient and scalable web applications. My journey in web development has equipped me with a diverse set of skills in both front-end and back-end technologies.</p>
+                <p>I am a passionate web developer with a focus on creating efficient and scalable web
+                    applications. My journey in web development has equipped me with a diverse set of skills
+                    in both front-end and back-end technologies.</p>
+                    <br>
+                    <a href="https://github.com/iyenagbe" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/iyenagbe-raymond" target="_blank">Linkedin</a>
+                    <a href="https://twitter.com/https://x.com/RayBaba26?t=LbQiYoA-ukbVGaxcWNONYA&s=09" target="_blank">Twitter</a>
+                    
+                    <br><br>
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="openTab(event, 'skills')">Skills</p>
                     <p class="tab-links" onclick="openTab(event, 'experience')">Experience</p>
@@ -140,8 +159,39 @@
                         <li>Certified Full Stack Developer</li>
                     </ul>
                 </div>
-            </div>
-        </div>
+
+                <div class="container">
+                    <span>
+                    <h1>Intro</h1>
+                    <p>
+                        Every project begins with a spark of inspiration, and mine were no different. Let me share with you the journey that led to the creation of my personal portfolio and the innovative language translator that you're about to explore.
+                    </p>
+                    <br>
+                    <h2>The Personal Portfolio</h2>
+                    <p>
+                        The inspiration for my personal portfolio stems from a deep-seated passion for storytelling and design. Growing up, I was always fascinated by the way stories could be told visually. Whether through a beautifully illustrated book, a captivating website, or an engaging animation, I was drawn to the power of visuals in conveying a narrative. This fascination led me to pursue a career in web design and development.
+                    </p>
+                    <p>
+                        However, as I delved deeper into the world of web design, I realized that a portfolio is more than just a collection of works—it's a reflection of one's journey, skills, and growth. I wanted my portfolio to be more than just a digital resume. I envisioned it as a dynamic, interactive space where I could showcase not only my projects but also the creativity, dedication, and passion that went into each one. Thus, my personal portfolio was born, designed to offer visitors an immersive experience and a glimpse into my professional journey.
+                    </p>
+                    <br>
+                    <h2>The Language Translator</h2>
+                    <p>
+                        The idea for the language translator was sparked by a personal challenge I faced. Coming from a multicultural background, I often found myself switching between languages to communicate with family and friends from different parts of the world. This constant juggling of languages made me acutely aware of the barriers that language differences can create.
+                    </p>
+                    <p>
+                        Determined to bridge these gaps, I embarked on a mission to develop a tool that could facilitate seamless communication across languages. I envisioned a language translator that was not only accurate and efficient but also user-friendly and accessible to everyone, regardless of their technical expertise. Drawing from my experiences and leveraging the latest advancements in artificial intelligence and machine learning, I set out to create a translator that could break down language barriers and bring people closer together.
+                    </p>
+                    <br>
+                    <h2>Explore My Work</h2>
+                    <p>
+                        As you navigate through my portfolio, I hope you get a sense of the passion and dedication that drive my projects. From the intricately designed interfaces to the innovative language translator, each project is a testament to my commitment to creating solutions that are both functional and beautiful.
+                    </p>
+                    <p>
+                        Thank you for visiting, and I hope you enjoy exploring my work as much as I enjoyed creating it.
+                    </p>
+                </span>
+                </div>
     </div>
     <script>
         function openTab(event, tabName) {
