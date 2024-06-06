@@ -74,5 +74,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub**: https://github.com/iyenagbe
 - **Portfolio URL**: https://alxportfolioproject-esh112wz2.vercel.app
 - **Linkedin**: https://www.linkedin.com/in/iyenagbe-raymond-27573b237
-- **Blog Link**: 
+- **Blog Link**: https://docs.google.com/document/d/1I1BBkQEUleSx52PDIYf4-3haJ4Rdd9FuBLcHJJme4sc/edit?usp=sharing
 
