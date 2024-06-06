@@ -26,8 +26,7 @@ This project was developed by Iyenagbe O Raymond as part of the ALX SE program. 
   - Listen to the pronunciation of the text.
 
 - **About Me**:
-  - A professional page that provides information about the developer.
-  - Details about skills, experience, and education.
+  - I am IYENAGBE RAYMOND OGEYANOR. Alx Africa Software Engineering learner C19 2024 
 
 ## Setup
 
@@ -36,7 +35,7 @@ To set up this project locally, follow these steps:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/your-repository.git
+    git clone (https://github.com/iyenagbe/Alx_Portfolio_Project.git)
     ```
 
 2. **Navigate to the project directory:**
@@ -73,4 +72,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Name**: Iyenagbe O Raymond
 - **Email**: iyenagberaymond@gmail.com
 - **GitHub**: https://github.com/iyenagbe
+- **Portfolio URL**: https://alxportfolioproject-esh112wz2.vercel.app
 
