@@ -69,8 +69,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- **Name**: Iyenagbe O Raymond
+- **Author**: Iyenagbe O Raymond
 - **Email**: iyenagberaymond@gmail.com
 - **GitHub**: https://github.com/iyenagbe
 - **Portfolio URL**: https://alxportfolioproject-esh112wz2.vercel.app
+- **Linkedin**: https://www.linkedin.com/in/iyenagbe-raymond-27573b237
+- **Blog Link**: 
 
